@@ -88,7 +88,7 @@ DATABASES = {
         'HOST': 'localhost',
         'PORT': '3306',
         'USER': 'root',
-        'PASSWORD': 'alexp123',
+        'PASSWORD': 'Argoxxx7',
         'NAME':'ApiMusicPro',
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLEs'"

@@ -5,11 +5,11 @@ from .models import Instrumento, Categoria
 
 @admin.register(Categoria)
 class CategoriaAdmin(admin.ModelAdmin):
-    list_display = ('idCategoria', 'nombre')
+    #list_display = ('idCategoria', 'nombre')
     ordering = ('-idCategoria',)
     search_fields = ('idCategoria', 'nombre',)
     #list_editable = ('nombre',)
-    list_display_links = ('idCategoria', 'nombre')
+    #list_display_links = ('idCategoria', 'nombre')
     
 
 @admin.register(Instrumento)
