@@ -1,0 +1,12 @@
+<!--Herencia de Templates-->
+{% extends 'index.html' %}
+{% block titulo %}
+    Agregar Categoria
+{% endblock titulo %}
+
+{% block body %}
+    <form method="POST">{% csrf_token %}
+        {{ categoria_form.as_p }}
+        <button type="submit">Agregar</button>
+    </form>
+{% endblock body %}
